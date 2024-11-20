@@ -1,0 +1,242 @@
+.hover{
+    transition: all .4s;
+}
+
+.hover:hover{
+    color: #dc3545;
+}
+
+.text{
+
+    transform: rotateX(1000px);
+}
+
+.section2{
+    height: 100vh;
+}
+
+.A-behind-r{
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.A-behind::before{
+    content: 'A';
+    position: absolute;
+    top: -25%;
+    left: 48%;
+    opacity:20%;
+    font-size: 90px;
+}
+
+.A-behind::after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transition: all .5s ease-in-out;
+}
+
+.A-behind-r:hover .A-behind::after{
+    transform:scalex(1.5);
+}
+
+
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./imges/section-3.jpg);
+    background-attachment: fixed;
+}
+
+.O-behind-r{
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.O-behind::before{
+    content: 'O';
+    position: absolute;
+    top: -25%;
+    left: 48%;
+    opacity:20%;
+    font-size: 90px;
+}
+
+.O-behind::after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transition: all .5s ease-in-out;
+}
+
+.O-behind-r:hover .O-behind::after{
+    transform:scalex(1.5);
+}
+
+.card-over{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.card-over img{
+    width: 100%;
+    transition: all 1s;
+}
+
+.over-lay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc354693;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+
+}
+
+.over-lay ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+.card-over:hover img{
+    transform: scale(1.2);
+}
+
+.card-over:hover .over-lay{
+    height: 100%;
+
+}
+
+.R-behind-r{
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.R-behind::before{
+    content: 'R';
+    position: absolute;
+    top: -25%;
+    left: 48%;
+    opacity:20%;
+    font-size: 90px;
+}
+
+.R-behind::after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transition: all .5s ease-in-out;
+}
+
+.R-behind-r:hover .R-behind::after{
+    transform:scalex(1.5);
+}
+
+.over{
+    
+    background-color: #fcfcfbb3;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.card-over:hover .over{
+    top: 0;
+}
+
+.S-behind-r{
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.S-behind::before{
+    content: 'S';
+    position: absolute;
+    top: -25%;
+    left: 48%;
+    opacity:20%;
+    font-size: 90px;
+}
+
+.S-behind::after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transition: all .5s ease-in-out;
+}
+
+.S-behind-r:hover .S-behind::after{
+    transform:scalex(1.5);
+}
+
+.C-behind-r{
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.C-behind::before{
+    content: 'C';
+    position: absolute;
+    top: -25%;
+    left: 48%;
+    opacity:20%;
+    font-size: 90px;
+}
+
+.C-behind::after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transition: all .5s ease-in-out;
+}
+
+.C-behind-r:hover .C-behind::after{
+    transform:scalex(1.5);
+}
+
+
