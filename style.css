@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .hover{
     transition: all .4s;
 }
@@ -52,6 +58,7 @@
     width: 100%;
     height: 80vh;
     background-image: url(./imges/section-3.jpg);
+    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -239,4 +246,135 @@
     transform:scalex(1.5);
 }
 
+.section-9{
+    height: 60vh;
+    background-color: black;
+}
 
+.size-number{
+    font-size: 70px;
+}
+
+.size-icons{
+    font-size: 50px;
+}
+
+.B-behind-r{
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.B-behind::before{
+    content: 'B';
+    position: absolute;
+    top: -25%;
+    left: 48%;
+    opacity:20%;
+    font-size: 90px;
+}
+
+.B-behind::after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transition: all .5s ease-in-out;
+}
+
+.B-behind-r:hover .B-behind::after{
+    transform:scalex(1.5);
+}
+
+.card{
+    width: 30%;
+    overflow: hidden;
+}
+
+.imges{
+    width: 100%;
+    transition: all 1s;
+}
+
+.card:hover .imges{
+    transform: scale(1.2);
+}
+
+.section-11{
+    width: 100%;
+    height: 100%;
+    background-image: url(./imges/section-11.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.card-price::before{
+    content: '$';
+    font-size: larger;
+    position: absolute;
+    top: 30%;
+    left: -3%;
+    width: 100%;
+    height: 100%;
+}
+
+.card-2{
+    background-color: #ED5252;
+}
+
+.section-12{
+    height: 40vh;
+}
+
+.section-12 img{
+    width: 40%;   
+}
+
+.G-behind-r{
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.G-behind::before{
+    content: 'B';
+    position: absolute;
+    top: -25%;
+    left: 48%;
+    opacity:20%;
+    font-size: 90px;
+}
+
+.G-behind::after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transition: all .5s ease-in-out;
+}
+
+.G-behind-r:hover .G-behind::after{
+    transform:scalex(1.5);
+}
+
+footer{
+    width: ;
+    height: 100vh;
+}
+
+.end{
+    width: 100%;
+    height: 100%;
+    background-image: url(./imges/footer.png);
+    background-position: center center;
+}
